@@ -1,0 +1,9 @@
+init_config:
+instances:
+  - host: "%%env_REDIS_INSTANCE_ENDPOINT"
+    port: 6379
+    password: ""
+    ssl: true
+    ssl_verify: false
+    tags:
+      - stage
