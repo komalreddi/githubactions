@@ -1,4 +1,4 @@
-name: Deploy to Dynamic Environment
+name: mytest
 
 on:
   workflow_dispatch:
