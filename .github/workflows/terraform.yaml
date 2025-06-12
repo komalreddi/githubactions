@@ -11,7 +11,6 @@ on:
         description: 'Docker image tag'
         required: true
         default: 'latest'
-
 jobs:
   deploy:
     name: Deploy to ${{ github.event.inputs.environment }}
