@@ -10,8 +10,8 @@ on:
 jobs:
   build-and-push:
     runs-on: ubuntu-latest
-      environment:
-        name: stage 
+    environment:
+      name: stage 
 
     steps:
     - name: Checkout Code
